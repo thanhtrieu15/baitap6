@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js.bootstrap.min.js"></script>
+    <script src="./js.jquery.min.js"></script>
+    <script src="baitap.js"></script>
+    <link rel="stylesheet" href="baitap.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="col-12">
+    </div>    
+    <h2>Customer name:</h2>
+    <input type="text" id="name"><br>
+    <h2>id:</h2> 
+    <input type="text" id="id"><br>
+    <h2>Product name:</h2>
+    <input type="text" id="product"><br>
+    <h2>Quantity:</h2>
+    <input type="text" id="quantity"><br>
+    <h2>Price:</h2>
+    <input type="text" id="price"><br><br>
+
+    <input type="button" value="save" onclick="save()">
+    <input type="button" value="show" onclick="show()">
+    <input type="button" value="reset" onclick="reset()">
+
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>Auto ISncrement</th>
+                <th>Customer name</th>
+                <th>Id</th>
+                <th>Product name</th>
+                <th>Qantity</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+
+        <tbody id="tbl"></tbody>
+    </table>
+</body>
+</html>
